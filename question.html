@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="image/gerogejensenbnr-pc.webp">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="codepen.css" >
+
+</head>
+<body>
+    
+<div style="height: 100vh;display: flex;align-items: center;justify-content: center;" class="background">
+<div style="padding: 10rem;background-color: antiquewhite;border-radius: 1rem;">
+    <p style="text-align: center;" id="p1">MAHAL MOBA AKO?</p>
+    <div style="margin-top: 1rem;display: flex;align-items: center;justify-content: center;gap: 1rem;">
+        <button style="width: 6rem;" class="btnns" id="btnOo" onclick="btnYes()" >OO</button>
+        <button style="width: 6rem;" class="btnns" id="btnHindi" onclick="btnNo()" >Hindi</button>
+    </div>
+</div>
+</div>
+</body>
+<script>
+// var btnOo = document.querySelector("#btnOo")
+// var btnHindi = document.querySelector("#btnHindi")
+function btnYes (){
+let parag1 = document.getElementById("p1");
+parag1.innerHTML = "Mahal Din Kita";
+parag1.style.color = "Green";
+parag1.innerHTML = "<h1>POTA AKO NATO</h1>";
+parag1.style.backgroundColor = "White";
+parag1.style.padding = "2rem";
+parag1.style.borderRadius = "10px";
+parag1.style.transition = "2s ease";
+}
+function btnNo (){
+let parag1 = document.getElementById("p1");
+parag1.innerHTML = "Eh Tarantado ka pala";
+parag1.style.color = "Red";
+parag1.style.backgroundColor = "trsnsparent";
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
+    function changeLabel() {
+
+        var loremss = document.getElementById("lorem")
+            loremss.innerHTML = "I LOVE YOU TOO"
+        var button = document.getElementById("btn1");
+        button.innerHTML = "Takbo";
+    }
+</script> -->
+</html>
